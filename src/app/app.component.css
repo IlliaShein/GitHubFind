@@ -1,0 +1,42 @@
+header{
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    
+    font-family: 'consolas';
+    font-size: 20px;
+
+    color: rgb(204, 204, 204);
+    background-color: rgb(46, 46, 47);
+}
+
+input{
+    width: 350px;
+    height: 28px;
+
+    font-family: 'consolas';
+    font-size: 16px;
+
+    color: rgb(204, 204, 204);
+    background-color: rgb(60, 60, 60);
+
+    box-shadow: none;
+    border: none;
+    outline: none;
+
+    border-radius: 14px;
+}
+
+#search-button{
+    margin-left: 15px;
+
+    width: 70px;
+    height: 25px;
+
+    font-family: 'consolas';
+    font-size: 16px;
+    color:rgb(46, 46, 47);
+
+    border-radius: 5px;
+}
