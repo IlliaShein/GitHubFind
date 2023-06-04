@@ -1,3 +1,10 @@
 <header>
-  GitHub username: <input type="text"> <button id="search-button">Search</button>
+  GitHub username: <input type="text" [(ngModel)]="userName"> <button  (click)="Search()" id="search-button">Search</button>
 </header>
+
+<div *ngIf="response">
+  <img src="{{response.avatar_url}}" alt="">
+  <div *ngFor="let key of getObjectKeys(response)">
+    <span class="text-variable">{{key}}:</span> <span class="text-value">{{response[key]}}</span>
+  </div>
+</div>
